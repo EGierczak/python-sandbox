@@ -1,7 +1,6 @@
-def main() -> None:
-    imie = input("Jak masz na imię? ")
-    print(f"Cześć, {imie}! Dzień 1 z 180.")
+name = "Ewelina"
+age = 30
+is_learning = True
 
-
-if __name__ == "__main__":
-    main()
+print(f"{name} is {age} years old.")
+print(f"Learning Python: {is_learning}")
