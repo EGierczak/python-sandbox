@@ -1,5 +1,7 @@
-text = "kot pies kot mysz kot pies kot"
-words = text.split()
+with open("sample.txt") as file:
+    text = file.read()
+
+words = text.lower().split()
 
 counts = {}
 for word in words:
