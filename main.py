@@ -11,3 +11,4 @@ ranking = sorted(counts.items(), key=lambda pair: pair[1], reverse=True)
 
 for word, count in ranking[:5]:
     print(f"{word}: {count}")
+
