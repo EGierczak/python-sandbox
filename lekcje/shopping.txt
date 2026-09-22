@@ -1,0 +1,6 @@
+bread
+milk
+butter
+eggs
+cheese
+chips
